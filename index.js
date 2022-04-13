@@ -11,7 +11,7 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/test', (req,res)=>{
-    res.send("This data was created to test pipeline, staging and finally production");
+    res.send("This '/test' page is created to test pipeline, staging and finally production");
 });
 
 app.get('/weather', (req,res) =>{
