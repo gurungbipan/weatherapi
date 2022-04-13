@@ -1,0 +1,15 @@
+[
+    {
+        "Location": "Dallas",
+        "Traffic": "Moderate"
+        
+    },
+    {
+        "Location": "New York",
+        "Traffic": "Worst"
+    }, 
+    {
+        "Location": "Chicago ",
+        "Traffic": "Moderate"
+    }
+]
