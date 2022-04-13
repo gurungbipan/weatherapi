@@ -7,7 +7,7 @@ const importDataTraffic = require("./trafficData.json")
 let port = process.env.PORT || 3000
 
 app.get('/', (req,res)=>{
-    res.send("Hello World");
+    res.send("Weather and Traffic API ");
 });
 
 app.get('/weather', (req,res) =>{
