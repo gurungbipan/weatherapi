@@ -1,0 +1,17 @@
+[
+    {
+        "Location": "Dallas",
+        "Temperature High": "80",
+        "Temerature Low": "60"
+    },
+    {
+        "Location": "New York",
+        "Temperature High": "70",
+        "Temerature Low": "55"
+    }, 
+    {
+        "Location": "Chicago",
+        "Temperature High": "85",
+        "Temerature Low": "45"
+    }
+]
