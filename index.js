@@ -7,7 +7,11 @@ const importDataTraffic = require("./trafficData.json")
 let port = process.env.PORT || 3000
 
 app.get('/', (req,res)=>{
-    res.send("Weather and Traffic API ");
+    res.send("Weather and Traffic API");
+});
+
+app.get('/test', (req,res)=>{
+    res.send("This '/test' page is created to test pipeline, staging and finally production");
 });
 
 app.get('/weather', (req,res) =>{
@@ -21,6 +25,8 @@ app.get('/traffic', (req,res) =>{
 app.listen(port,()=> {
     console.log(`App is listening on PORT http://localhost:${port}`);
 }); 
+
+
 
 
 //comment
